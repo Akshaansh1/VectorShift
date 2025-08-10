@@ -20,8 +20,8 @@ from redis_client import add_key_value_redis, get_value_redis, delete_key_redis
 # CLIENT_SECRET = os.environ.get('HUBSPOT_CLIENT_SECRET', 'XXX')
 
 # Option 2: Direct assignment (for development only)
-CLIENT_ID = 'e830baa8-6e8e-46eb-b341-e5df80924107' 
-CLIENT_SECRET = '8df061ef-db1f-4fbb-ac08-76420a14baef'  # Replace with your HubSpot Client Secret
+CLIENT_ID = 'XXX' 
+CLIENT_SECRET = 'XXX'  # Replace with your HubSpot Client Secret
 
 # Redirect URL - using the standard oauth2callback endpoint
 # This should match exactly what's configured in your HubSpot app
